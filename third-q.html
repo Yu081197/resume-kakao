@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat - Kakao Clone</title>
+</head>
+<body id="chat-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fas fa-battery-full fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html">
+            <i class="fas fa-angle-left fa-2x"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Question</h1>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-bars fa-lg"></i></span>
+        </div>
+    </header>
+
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Thursday, February 10, 2022
+        </div>
+
+        <div class="message-row">
+            <img src="q-mark.png">
+            <div class="message-row__content">
+                <span class="message__author">Question</span>
+                <div class="message__info">
+                    <span class="message__bubble">전공과 다른 진로를 선택한 이유</span>
+                    <span class="message__time">21:27</span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble"> 제 장점은 어떤 일이던 논리적이고 이성적으로 생각하는 것입니다. 진학한 과에선 실질적인 경험이나 소통이 아닌 취업을 위한 자격증과 감정적 수업들이 있었으며 제 장점과 맞지 않다고 느꼈습니다. 그래서 실질적인 소통을 할 수 있는 웹에 관심이 갔습니다. 여러 웹을 통해 접하는 정보들은 새로운 지식에 대한 도전을 좋아하는 제게 항상 매력을 느끼게 해줬습니다. 정확한 코드를 집어넣어야 완성되는 코드와 웹이나 앱을 만듦에 있어 창작의 고통도 있었지만 재미있었습니다. 또한 코드만을 통해 다양한 개발 커뮤니티에서 사람과 소통할 수 있음에 좋았고 내가 개발한 무언가를 다양한 사람들이 유용하게 사용했으면 좋겠다고 생각했습니다.
+                    </span>
+                    <span class="message__time">21:27</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="far fa-plus-square fa-lg"></i>
+        
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Whrite a message..."/>
+            <i class="far fa-smile-beam"></i>
+            <button>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+        </div>
+    </form>
+
+    <div id="no-mobile">
+        <span>Your screen is too too big</span>
+    </div>
+
+    <script 
+        src="https://kit.fontawesome.com/6478f529f2.js" 
+        crossorigin="anonymous"
+    ></script>
+</body>
+</html>

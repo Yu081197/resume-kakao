@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat - Kakao Clone</title>
+</head>
+<body id="chat-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fas fa-battery-full fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html">
+            <i class="fas fa-angle-left fa-2x"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Question</h1>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-bars fa-lg"></i></span>
+        </div>
+    </header>
+
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Thursday, February 10, 2022
+        </div>
+
+        <div class="message-row">
+            <img src="q-mark.png">
+            <div class="message-row__content">
+                <span class="message__author">Question</span>
+                <div class="message__info">
+                    <span class="message__bubble">주도적으로 진행했던 프로젝트</span>
+                    <span class="message__time">21:27</span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">약국에서 4년간 일했었는데 새롭게 약국이 이사를 하게 돼 내부 인테리어 작업을 도맡아 했습니다. 한번도 배워보지 않았던 인테리어 분야였지만 직접 검색하고 도면 프로그램과 효율적인 동선을 위한 인테리어에 대해 공부했습니다. 이전 약국은 조제실과 다른 공간의 분리가 명확히 되어있지 않았었고 비효율적인 공간활용이 많았습니다. 이에 새롭게 아일랜드 식탁을 두어 효율적인 공간 활용을 했고 조제실의 명확한 분리로 깔끔한 약국 인테리어를 만들 수 있었습니다.
+                    </span>
+                    <span class="message__time">21:27</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="far fa-plus-square fa-lg"></i>
+        
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Whrite a message..."/>
+            <i class="far fa-smile-beam"></i>
+            <button>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+        </div>
+    </form>
+
+    <div id="no-mobile">
+        <span>Your screen is too too big</span>
+    </div>
+
+    <script 
+        src="https://kit.fontawesome.com/6478f529f2.js" 
+        crossorigin="anonymous"
+    ></script>
+</body>
+</html>
